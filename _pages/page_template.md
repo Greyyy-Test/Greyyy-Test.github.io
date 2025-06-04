@@ -1,12 +1,20 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /page_template/
+title: "Page Template"
 toc: true
 toc_sticky: true
 layout: single
 author_profile: false
 sidebar:
-  nav: "main"
+  - title: "Welcome"
+    image: /assets/images/lamet.png
+    image_alt: "Profile Photo"
+    text: "Welcome to the Quick-Start Guide! Here are some useful resources:"
+  - title: "Useful Links"
+    text: |
+      - [Google](https://www.google.com)
+      - [GitHub](https://github.com)
+      - [Jekyll](https://jekyllrb.com)
 ---
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
