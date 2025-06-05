@@ -22,6 +22,7 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
    git push origin your-feature-name
    ```
 4. **Open a Pull Request (PR) on GitHub**, targeting the `master` branch.
+
 5. **Review your own PR:**
    - You can self-review your PR (since 1 approval is sufficient)
    - Make sure all comments are marked resolved
