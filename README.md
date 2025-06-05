@@ -2,6 +2,8 @@
 
 This is the official webpage of **Large Momentum Effective Theory (LaMET)**.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute and submit pull requests.
+
 ---
 
 ## 📄 Adding a New Page
@@ -22,6 +24,8 @@ toc: true           # Show table of contents (right sidebar)
 toc_sticky: true    # Make TOC sticky while scrolling
 sidebar:
   - title: "Welcome"
+    image: /assets/images/lamet.png
+    image_alt: "Profile Photo"
     text: "This is a custom sidebar block."
 ---
 ```
@@ -42,6 +46,7 @@ sidebar:
 
 To add a new blog post:
 1. Create a new file in the `_posts` directory, named as `YYYY-MM-DD-title.md` (e.g., `2024-06-06-my-post.md`).
+   - There is also a template: `2024-06-06-post-template.md` in `_posts`.
 2. Use the following front matter:
 
 ```yaml
@@ -50,6 +55,14 @@ title: "My Post Title"
 date: 2024-06-06
 layout: single
 toc: true
+toc_sticky: true
+author_profile: false
+sidebar:
+  nav: "main"
+categories:
+  - blog
+tags:
+  - LaMET
 ---
 ```
 
@@ -57,7 +70,7 @@ Write your post content below the front matter.
 
 ---
 
-## 🧩 Page Head Parameters Explained
+## 🧩 Front Matter & Head Parameters (for Pages and Posts)
 
 - `title`: The page or post title (displayed at the top and in navigation)
 - `permalink`: The URL path for the page (e.g., `/about/`)
@@ -72,14 +85,7 @@ Write your post content below the front matter.
 
 ---
 
-## 📚 More Information
-- See `page_template.md` in `_pages` for a ready-to-copy template.
-- Edit `_data/navigation.yml` to customize navigation menus.
-- For more details, see the [Minimal Mistakes documentation](https://mmistakes.github.io/minimal-mistakes/docs/).
-
----
-
-## Using Notices and Callouts
+## 💡 Using Notices and Callouts
 
 You can use special callout blocks to highlight information in your Markdown files. For example:
 
@@ -97,29 +103,64 @@ This is a primary notice.
 {: .notice--primary}
 ```
 
-For more styles and details, see the [Minimal Mistakes Notices documentation](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#notices).
+For more styles and details, see the [Minimal Mistakes Notices documentation](https://mmistakes.github.io/minimal-mistakes/post%20formats/post-notice/).
 
 ---
 
-## Troubleshooting
+## 🚀 Preview the Website Locally
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+### Install Bundler
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+- **Windows**:
+  ```bash
+  gem install bundler
+  ```
+- **macOS** (with Homebrew):
+  ```bash
+  brew install ruby
+  gem install bundler
+  ```
+- **Linux** (Debian/Ubuntu):
+  ```bash
+  sudo apt-get install ruby-full
+  gem install bundler
+  ```
+
+### Start the Local Server
+
+Go to the root directory of the repository and run the following commands:
+
+```bash
+# Install dependencies (first time only)
+bundle install
+
+# Start the local server
+bundle exec jekyll serve
+```
+
+Then open http://localhost:4000 in your browser.
 
 ---
 
-## Acknowledgements
-
-This site is built with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes), © Michael Rose, distributed under the MIT License.
-
----
-
-## Adding a Favicon and App Icons
+## 🎨 Adding a Favicon and App Icons
 
 To add a favicon and app icons for your site:
 
 1. Visit [RealFaviconGenerator](https://realfavicongenerator.net/) and upload your image to generate a full favicon package.
 2. Download the generated files and place them in your site's root directory (or as instructed by the generator).
+
+---
+
+## 📚 More Information
+- See `page_template.md` in `_pages` for a ready-to-copy template.
+- See `2024-06-06-post-template.md` in `_posts` for a post template.
+- Edit `_data/navigation.yml` to customize navigation menus.
+- For more details, see the [Minimal Mistakes documentation](https://mmistakes.github.io/minimal-mistakes/docs/).
+
+---
+
+## 📜 Acknowledgements
+
+This site is built with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes), © Michael Rose, distributed under the MIT License.
+
+
