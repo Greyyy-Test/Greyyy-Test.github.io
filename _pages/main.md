@@ -1,8 +1,8 @@
 ---
-title: "Quick-Start Guide"
-permalink: /docs/quick-start-guide/
+title: "Main"
+permalink: /main/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2021-06-07T08:48:05-04:00
+last_modified_at: 2025-06-04
 redirect_from:
   - /theme-setup/
 toc: true
@@ -165,9 +165,9 @@ If you customized any of these files leave them alone, and only remove the untou
 
 #### Update Gemfile
 
-Replace `gem "github-pages` or `gem "jekyll"` with `gem "jekyll", "~> 3.5"`. You'll need the latest version of Jekyll[^update-jekyll] for Minimal Mistakes to work and load all of the theme's assets properly, this line forces Bundler to do that.
+Replace `gem "github-pages` or `gem "jekyll"` with `gem "jekyll", "~> 3.5"`. You'll need the latest version of Jekyll[^footnote-example] for Minimal Mistakes to work and load all of the theme's assets properly, this line forces Bundler to do that.
 
-[^update-jekyll]: You could also run `bundle update jekyll` to update Jekyll.
+[^footnote-example]: You could also run `bundle update jekyll` to update Jekyll.
 
 Add the Minimal Mistakes theme gem: 
 

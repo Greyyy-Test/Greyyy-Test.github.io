@@ -1,8 +1,10 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Main"
+    url: /main/
   - title: "About"
     url: /about/
+  - title: "FAQ"
+    url: /faq/
   - title: "Page Template"
     url: /page_template/
   - title: "Posts"
@@ -11,25 +13,3 @@ main:
   #   url: /categories/
   # - title: "Tags"
   #   url: /tags/
-
-
-docs:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "Installing the theme"
-    url: /docs/quick-start-guide/#installing-the-theme
-  - title: "Gem-based method"
-    url: /docs/quick-start-guide/#gem-based-method
-  - title: "Remote theme method"
-    url: /docs/quick-start-guide/#remote-theme-method
-  - title: "Remove the Unnecessary"
-    url: /docs/quick-start-guide/#remove-the-unnecessary
-  - title: "Setup Your Site"
-    url: /docs/quick-start-guide/#setup-your-site
-  - title: "Starting Fresh"
-    url: /docs/quick-start-guide/#starting-fresh
-  - title: "Starting from jekyll new"
-    url: /docs/quick-start-guide/#starting-from-jekyll-new
-  - title: "Migrating to Gem Version"
-    url: /docs/quick-start-guide/#migrating-to-gem-version
-  
