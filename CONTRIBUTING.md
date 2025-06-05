@@ -33,6 +33,18 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
    - Use the **Squash and merge** button to keep commit history clean.
    - Edit the commit message to clearly summarize what the PR does.
 
+7. **Delete your branch and update your local repository:**
+   - On GitHub, after merging, click "Delete branch" to remove the feature branch from the remote.
+   - On your local machine, switch to the `master` branch and pull the latest changes:
+     ```bash
+     git checkout master
+     git pull
+     ```
+   - Delete your local feature branch:
+     ```bash
+     git branch -d your-feature-name
+     ```
+   - For next edits, repeat the process from step 2.
 ---
 
 ## 🛡️ Repository Rules
