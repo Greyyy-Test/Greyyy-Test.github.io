@@ -21,7 +21,7 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
    git commit -m "Brief description of your changes"
    git push origin your-feature-name
    ```
-4. **Open a Pull Request (PR) on GitHub**, targeting the `master` branch.
+4. **Open a Pull Request (PR) on GitHub**, click `Contribute` button, then click `Open pull request` button, targeting the `master` branch.
 
 5. **If you encounter a conflict** (e.g., GitHub shows a message like _"This branch has conflicts that must be resolved"_), click **Resolve conflicts**, then:
    - Delete the sections you don’t want to keep,
