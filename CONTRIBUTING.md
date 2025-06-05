@@ -21,20 +21,21 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
    git commit -m "Brief description of your changes"
    git push origin your-feature-name
    ```
+   You can commit in small steps (e.g., fixing typos, adding sections). These will be squashed after merging.
 4. **Open a Pull Request (PR) on GitHub**, click `Contribute` button, then click `Open pull request` button, targeting the `master` branch.
 
 5. **If you encounter a conflict** (e.g., GitHub shows a message like _"This branch has conflicts that must be resolved"_), click **Resolve conflicts**, then:
    - Delete the sections you don’t want to keep,
    - Keep the correct version of the content (usually from your PR branch),
    - Remove the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`),
-   - Then click **Mark as resolved** and **Commit merge**.
+   - Then click `Mark as resolved` and `Commit merge`.
 
 6. **Merge your PR:**
-   - Use the **Squash and merge** button to keep commit history clean.
+   - Use the `Squash and merge` button to keep commit history clean.
    - Edit the commit message to clearly summarize what the PR does.
 
 7. **Delete your branch and update your local repository:**
-   - On GitHub, after merging, click "Delete branch" to remove the feature branch from the remote.
+   - On GitHub, after merging, click `Delete branch` to remove the feature branch from the remote.
    - On your local machine, switch to the `master` branch and pull the latest changes:
      ```bash
      git checkout master
@@ -42,7 +43,7 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
      ```
    - Delete your local feature branch:
      ```bash
-     git branch -d your-feature-name
+     git branch -D your-feature-name
      ```
    - For next edits, repeat the process from step 2.
 ---
