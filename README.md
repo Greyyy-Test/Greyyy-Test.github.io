@@ -114,3 +114,12 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 ## Acknowledgements
 
 This site is built with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes), © Michael Rose, distributed under the MIT License.
+
+---
+
+## Adding a Favicon and App Icons
+
+To add a favicon and app icons for your site:
+
+1. Visit [RealFaviconGenerator](https://realfavicongenerator.net/) and upload your image to generate a full favicon package.
+2. Download the generated files and place them in your site's root directory (or as instructed by the generator).

@@ -3,6 +3,10 @@ main:
     url: /main/
   - title: "About"
     url: /about/
+  - title: "Publications"
+    url: /publications/
+  - title: "Conferences"
+    url: /conference/
   - title: "FAQ"
     url: /faq/
   - title: "Page Template"
