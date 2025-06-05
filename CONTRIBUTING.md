@@ -22,12 +22,16 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
    git push origin your-feature-name
    ```
 4. **Open a Pull Request (PR) on GitHub**, targeting the `master` branch.
-5. **Review your own PR:**
-   - You can self-review your PR (since 1 approval is sufficient)
-   - Make sure all comments are marked resolved
+
+5. **If you encounter a conflict** (e.g., GitHub shows a message like _"This branch has conflicts that must be resolved"_), click **Resolve conflicts**, then:
+   - Delete the sections you don’t want to keep,
+   - Keep the correct version of the content (usually from your PR branch),
+   - Remove the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`),
+   - Then click **Mark as resolved** and **Commit merge**.
+
 6. **Merge your PR:**
-   - Use the **Squash and merge** button
-   - Edit the commit message to summarize what the PR does
+   - Use the **Squash and merge** button to keep commit history clean.
+   - Edit the commit message to clearly summarize what the PR does.
 
 ---
 
@@ -37,7 +41,7 @@ The following rules are enforced to ensure consistency and collaboration:
 
 * **No direct push** to `master` allowed (everyone must use PRs)
 * **Squash merge only** (each PR results in a single commit)
-* **At least 1 approval** is required to merge a PR
+* **At least 0 approval** is required to merge a PR, so everyone can self-merge their own PRs
 * **All code review comments must be resolved** before merging
 * **Force pushes and branch deletions are blocked**
 
