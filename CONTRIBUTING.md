@@ -1,6 +1,6 @@
 # Contributing to LaMET Webpage
 
-Thank you for your interest in contributing to the LaMET (Large Momentum Effective Theory) webpage! This guide explains how to collaborate via pull requests (PRs) while keeping our main branch clean and our work collaborative.
+Thank you for your interest in contributing to the LaMET (Large Momentum Effective Theory) webpage! This guide explains how to collaborate via pull requests (PRs) while keeping our master branch clean and our work collaborative.
 
 ---
 
@@ -21,7 +21,7 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
    git commit -m "Brief description of your changes"
    git push origin your-feature-name
    ```
-4. **Open a Pull Request (PR) on GitHub**, targeting the `main` branch.
+4. **Open a Pull Request (PR) on GitHub**, targeting the `master` branch.
 5. **Review your own PR:**
    - You can self-review your PR (since 1 approval is sufficient)
    - Make sure all comments are marked resolved
@@ -35,7 +35,7 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
 
 The following rules are enforced to ensure consistency and collaboration:
 
-* **No direct push** to `main` allowed (everyone must use PRs)
+* **No direct push** to `master` allowed (everyone must use PRs)
 * **Squash merge only** (each PR results in a single commit)
 * **At least 1 approval** is required to merge a PR
 * **All code review comments must be resolved** before merging
