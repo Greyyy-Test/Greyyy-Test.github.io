@@ -14,8 +14,6 @@ sidebar:
   nav: "main"
 ---
 
-# Challenges and Opportunities for LaMET in Lattice QCD
-
 While LaMET has enabled significant progress in accessing parton physics from lattice QCD, several challenges remain. At the same time, new opportunities are emerging as computational and theoretical techniques advance.
 
 ## Main Challenges

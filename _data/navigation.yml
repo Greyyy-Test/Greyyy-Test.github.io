@@ -7,12 +7,14 @@ main:
     url: /publications/
   - title: "Conferences"
     url: /conference/
+  - title: "Highlights"
+    url: /highlights/
   - title: "FAQ"
     url: /faq/
-  - title: "Page Template"
-    url: /page_template/
   - title: "Posts"
     url: /posts/
+  - title: "Page Template"
+    url: /page_template/
   # - title: "Categories"
   #   url: /categories/
   # - title: "Tags"

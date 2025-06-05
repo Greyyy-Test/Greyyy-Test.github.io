@@ -21,8 +21,6 @@ sidebar:
       - [Jekyll](https://jekyllrb.com)
 ---
 
-# Research Directions in LaMET
-
 Large Momentum Effective Theory (LaMET) has rapidly evolved, with ongoing research expanding its scope and improving its precision. Here we highlight some of the main research directions and recent advances in the field.
 
 ## 1. Higher-Twist and Power Corrections

@@ -13,8 +13,6 @@ tags:
   - LaMET
 ---
 
-# Introduction to Large Momentum Effective Theory (LaMET)
-
 Large Momentum Effective Theory (LaMET) is a powerful framework that enables the calculation of parton physics from lattice QCD. Traditionally, parton distribution functions (PDFs) and other light-cone observables are defined in Minkowski space and are not directly accessible in Euclidean lattice QCD. LaMET overcomes this challenge by relating Euclidean matrix elements of boosted hadrons to their light-cone counterparts through factorization and matching procedures.
 
 ## Motivation
