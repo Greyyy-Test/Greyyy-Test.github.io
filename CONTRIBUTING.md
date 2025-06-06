@@ -46,6 +46,13 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
      git branch -D your-feature-name
      ```
    - For next edits, repeat the process from step 2.
+
+8. **Wait for webpage update:**
+   - After merging to `master`, GitHub Actions will automatically rebuild and deploy the webpage
+   - This process takes about 30 seconds
+   - You can monitor the deployment status in the "Actions" tab of the repository
+   - Once complete, your changes will be live on the website
+
 ---
 
 ## 🛡️ Repository Rules
