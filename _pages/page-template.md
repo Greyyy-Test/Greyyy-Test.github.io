@@ -29,7 +29,6 @@ You can include inline LaTeX equations like this: $E = mc^2$ or display equation
 $$
 \frac{\partial f}{\partial t} + \nabla \cdot \mathbf{F} = 0
 $$
-{: .notice--info}
 
 ### Python Code Blocks
 Here's how to include Python code:
@@ -40,6 +39,11 @@ import numpy as np
 def square(x):
     return x**2
 ```
-{: .notice--success}
 
 ### Tables
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
+| Cell 7   | Cell 8   | Cell 9   |
