@@ -11,30 +11,35 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
    git clone https://github.com/LaMET4Parton/LaMET4Parton.github.io.git
    cd LaMET4Parton.github.io
    ```
-2. **Create a new branch** for your changes:
+2. **Sync the master branch** to your local machine:
+   ```bash
+   git checkout master
+   git pull origin master
+   ```
+3. **Create a new branch** for your changes:
    ```bash
    git checkout -b your-feature-name
    ```
-3. **Make your changes and commit:**
+4. **Make your changes and commit:**
    ```bash
    git add .
    git commit -m "Brief description of your changes"
    git push origin your-feature-name
    ```
    You can commit in small steps (e.g., fixing typos, adding sections). These will be squashed after merging.
-4. **Open a Pull Request (PR) on GitHub**, click `Contribute` button, then click `Open pull request` button, targeting the `master` branch.
+5. **Open a Pull Request (PR) on GitHub**, click `Contribute` button, then click `Open pull request` button, targeting the `master` branch.
 
-5. **If you encounter a conflict** (e.g., GitHub shows a message like _"This branch has conflicts that must be resolved"_), click **Resolve conflicts**, then:
+6. **If you encounter a conflict** (e.g., GitHub shows a message like _"This branch has conflicts that must be resolved"_), click **Resolve conflicts**, then:
    - Delete the sections you don’t want to keep,
    - Keep the correct version of the content (usually from your PR branch),
    - Remove the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`),
    - Then click `Mark as resolved` and `Commit merge`.
 
-6. **Merge your PR:**
+7. **Merge your PR:**
    - Use the `Squash and merge` button to keep commit history clean.
    - Edit the commit message to clearly summarize what the PR does.
 
-7. **Delete your branch and update your local repository:**
+8. **Delete your branch and update your local repository:**
    - On GitHub, after merging, click `Delete branch` to remove the feature branch from the remote.
    - On your local machine, switch to the `master` branch and pull the latest changes:
      ```bash
@@ -47,7 +52,7 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
      ```
    - For next edits, repeat the process from step 2.
 
-8. **Wait for webpage update:**
+9. **Wait for webpage update:**
    - After merging to `master`, GitHub Actions will automatically rebuild and deploy the webpage
    - This process takes about 30 seconds
    - You can monitor the deployment status in the "Actions" tab of the repository
@@ -69,9 +74,11 @@ The following rules are enforced to ensure consistency and collaboration:
 
 ## 📘 Tips for Contributors
 
+* [A simple guide to Git](https://rogerdudler.github.io/git-guide/index.html)
+* [Cheat sheet for Git](https://www.runoob.com/manual/github-git-cheat-sheet.pdf)
+* Remember to sync the master branch to your local machine before making changes
 * Use descriptive commit messages like `Add Publications page` or `Fix layout bug in FAQ`
 * Keep your PRs focused — small, clear, and reviewable
-* You can collaborate on the same PR by pushing to a shared branch
 
 ---
 
