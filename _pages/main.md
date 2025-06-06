@@ -1,5 +1,5 @@
 ---
-title: "Large Momentum Effective Theory (LaMET)"
+title: "Large Momentum Effective Theory"
 permalink: /main/
 excerpt: "Large Momentum Effective Theory (LaMET) is a theoretical framework that allows the calculation of parton physics from lattice QCD by boosting hadrons to large momenta."
 last_modified_at: 2025-06-04
@@ -20,6 +20,8 @@ sidebar:
       - [GitHub](https://github.com)
       - [Jekyll](https://jekyllrb.com)
 ---
+
+Large Momentum Effective Theory (LaMET) is a theoretical framework that allows the calculation of parton physics from lattice QCD using hadron states with large momenta.
 
 Minimal Mistakes has been developed as a [Gem-based theme](http://jekyllrb.com/docs/themes/) for easier use, and 100% compatible with GitHub Pages when used as a remote theme.
 
