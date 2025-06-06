@@ -22,13 +22,15 @@ Below is a selection of representative publications related to LaMET:
 
 ## Key Review Articles
 
-- **Ji, X. (2013).** Parton Physics on a Euclidean Lattice. *Physical Review Letters*, 110(26), 262002. [doi:10.1103/PhysRevLett.110.262002](https://doi.org/10.1103/PhysRevLett.110.262002)
-- **Cichy, K., & Constantinou, M. (2019).** A guide to light-cone PDFs from lattice QCD: an overview of approaches, techniques and results. *Advances in High Energy Physics*, 2019, 3036904. [arXiv:1811.07248](https://arxiv.org/abs/1811.07248)
+- **Ji, X., Liu, Y.S., Liu, Y., Zhang, J.H., & Zhao, Y. (2021).** Large-momentum effective theory. *Review of Modern Physics*, 93(3), 035005. [doi:10.1103/RevModPhys.93.035005](https://doi.org/10.1103/RevModPhys.93.035005)
+
 
 ## Selected Research Papers
 
-- **Alexandrou, C., et al. (2015).** Lattice calculation of parton distributions. *Physical Review D*, 92(1), 014502. [arXiv:1504.07455](https://arxiv.org/abs/1504.07455)
-- **Lin, H.-W., et al. (2018).** Parton distributions and lattice QCD calculations: a community white paper. *Progress in Particle and Nuclear Physics*, 100, 107-160. [arXiv:1711.07916](https://arxiv.org/abs/1711.07916)
+- **Yao, F., et al. (LPC) (2023).** Nucleon Transversity Distribution in the Continuum and Physical Mass Limit from Lattice QCD. *Physical Review Letters*, 131(26), 261901. [doi:10.1103/PhysRevLett.131.261901](https://doi.org/10.1103/PhysRevLett.131.261901)
+- **Gao, X., Hanlon, A.D., Mukherjee, S., Petreczky, P., Scior, P., Syritsyn, S., & Zhao, Y. (2022).** Lattice QCD Determination of the Bjorken-x Dependence of Parton Distribution Functions at Next-to-Next-to-Leading Order. *Physical Review Letters*, 128(14), 142003. [doi:10.1103/PhysRevLett.128.142003](https://doi.org/10.1103/PhysRevLett.128.142003)
+- **Ji, X. (2013).** Parton Physics on a Euclidean Lattice. *Physical Review Letters*, 110(26), 262002. [doi:10.1103/PhysRevLett.110.262002](https://doi.org/10.1103/PhysRevLett.110.262002)
+
 
 ## More Resources
 
