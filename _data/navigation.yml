@@ -9,13 +9,15 @@ main:
     url: /conference/
   - title: "Highlights"
     url: /highlights/
+  - title: "Notes"
+    url: /notes/
   - title: "FAQ"
     url: /faq/
   - title: "Posts"
     url: /posts/
   - title: "Page Template"
     url: /page_template/
-  # - title: "Categories"
-  #   url: /categories/
-  # - title: "Tags"
-  #   url: /tags/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
