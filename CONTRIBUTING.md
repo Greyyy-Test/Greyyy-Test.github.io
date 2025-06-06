@@ -18,13 +18,13 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
    ```
 3. **Create a new branch** for your changes:
    ```bash
-   git checkout -b your-feature-name
+   git checkout -b {your-feature-name}
    ```
 4. **Make your changes and commit:**
    ```bash
    git add .
    git commit -m "Brief description of your changes"
-   git push origin your-feature-name
+   git push origin {your-feature-name}
    ```
    You can commit in small steps (e.g., fixing typos, adding sections). These will be squashed after merging.
 5. **Open a Pull Request (PR) on GitHub**, click `Contribute` button, then click `Open pull request` button, targeting the `master` branch.
@@ -48,7 +48,7 @@ Thank you for your interest in contributing to the LaMET (Large Momentum Effecti
      ```
    - Delete your local feature branch:
      ```bash
-     git branch -D your-feature-name
+     git branch -D {your-feature-name}
      ```
    - For next edits, repeat the process from step 2.
 
