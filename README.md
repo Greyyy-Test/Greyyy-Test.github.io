@@ -1,6 +1,8 @@
 # LaMET Webpage
 
-This is the official webpage of **Large Momentum Effective Theory (LaMET)**.
+This is the official webpage of **Large Momentum Effective Theory (LaMET)**, a theoretical framework that allows the calculation of parton physics from lattice QCD using hadron states with large momenta.
+
+The webpage is deployed at [https://lamet4parton.org/](https://lamet4parton.org/).
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute and submit pull requests.
 
