@@ -72,7 +72,7 @@ Write your post content below the front matter.
 
 ---
 
-## 🧩 Front Matter & Head Parameters (for Pages and Posts)
+## 🧩 Front Matter (for Pages and Posts)
 
 - `title`: The page or post title (displayed at the top and in navigation)
 - `permalink`: The URL path for the page (e.g., `/about/`)
