@@ -82,7 +82,7 @@ Write your post content below the front matter.
 - `sidebar`: Custom left sidebar content or navigation menu
     - Use a list of blocks for custom content (see above)
     - Or use `nav: "main"` to use a navigation group from `_data/navigation.yml`
-- `author_profile`: Show or hide the author profile in the sidebar (`true`/`false`)
+- `author_profile`: Show or hide the author profile in the sidebar, should be `false`
 - `last_modified_at`: (Optional) Last updated date for the page
 
 ---
